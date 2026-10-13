@@ -29,3 +29,11 @@ a{color:inherit}
 .share a{display:inline-flex;width:24px;height:24px;border-radius:50%;background:#1a1b1b;color:#fff;align-items:center;justify-content:center;font-size:12px;text-decoration:none}
 footer{padding:48px 112px;font-size:12px;color:#454646;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
 @media(max-width:767px){.hero{padding:0}.hero-card{border-radius:0;min-height:420px}.hero-card h1{font-size:40px}.item{flex-direction:column}.item img{width:100%;height:auto}.post{padding:24px}footer{padding:32px 24px;justify-content:center;text-align:center}}
+.columns{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1328px;margin:0 auto;align-items:start}
+.columns .item{flex-direction:column}.columns .item img{width:100%;max-width:340px;height:auto}
+.app{display:flex;gap:24px;align-items:flex-start}
+.app img{width:96px;height:96px;flex:none;border-radius:20px}
+.app h4{font-size:18px;font-weight:400;margin:4px 0 12px}.app h4 a{text-decoration:none}
+.app .excerpt{font-size:14px;line-height:1.5;color:#454646;margin:0 0 20px}
+.btn-dark{background:#1a1b1b;color:#fff}.btn-dark:hover{background:#333}
+@media(max-width:767px){.columns{grid-template-columns:1fr;gap:0}.app{flex-direction:column}}
