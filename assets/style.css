@@ -3,7 +3,7 @@
 body{margin:0;background:#dae3e2;color:#1a1b1b;font-family:Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 .hero{margin:0 auto;padding:0 24px;max-width:1328px}
-.hero-card{position:relative;border-radius:8px;overflow:hidden;min-height:500px;background:#0b3b44 url(images/hero-agave.jpg) center/cover no-repeat;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end;text-align:right;padding:56px 34px 60px}
+.hero-card{position:relative;border-radius:8px;overflow:hidden;min-height:500px;background:#0b3b44 url(images/hero-agave.jpg?v=ce50527) center/cover no-repeat;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end;text-align:right;padding:56px 34px 60px}
 .hero-card h1{font-family:"League Spartan",Arial,Helvetica,sans-serif;font-weight:600;font-size:62px;line-height:1.2;color:#f7f7f7;margin:0 0 16px;max-width:520px}
 .hero-card p{font-size:18px;color:#f7f7f7;margin:0}
 .btn{display:inline-block;background:#dae3e2;color:#1a1b1b;font-size:12px;font-weight:700;letter-spacing:.083em;text-transform:uppercase;text-decoration:none;padding:14px 23px;border-radius:4px}
